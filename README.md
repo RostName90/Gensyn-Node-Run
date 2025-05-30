@@ -12,6 +12,7 @@ sudo apt install -y
 sudo apt update && sudo apt install -y python3 python3-venv python3-pip curl wget screen git lsof nano unzip iproute2
 ```
 
+This command for update error and do smooth
 ```bash
 curl -sSL https://raw.githubusercontent.com/zunxbt/installation/main/node.sh | bash
 ```
