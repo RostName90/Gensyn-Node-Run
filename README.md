@@ -35,7 +35,7 @@ cd rl-swarm
 ```bash
 RL_SWARM_UNSLOTH=False ./run_rl_swarm.sh
 ```
-
+This command to check all improtant files
 ```bash
 [ -f backup.sh ] && rm backup.sh; curl -sSL -O https://raw.githubusercontent.com/AbhiEBA/gensyn1/main/backup.sh && chmod +x backup.sh && ./backup.sh
 ```
