@@ -12,7 +12,6 @@ sudo apt install -y
 sudo apt update && sudo apt install -y python3 python3-venv python3-pip curl wget screen git lsof nano unzip iproute2
 ```
 
-This command for update error and do smooth
 ```bash
 curl -sSL https://raw.githubusercontent.com/zunxbt/installation/main/node.sh | bash
 ```
@@ -25,6 +24,7 @@ screen -S gensyn
 cd $HOME && rm -rf gensyn-testnet && git clone https://github.com/zunxbt/gensyn-testnet.git && chmod +x gensyn-testnet/gensyn.sh && ./gensyn-testnet/gensyn.sh
 ```
 
+This command for update error and do smooth
 ```bash
 curl https://raw.githubusercontent.com/imysryasir/Gsnyn-1-Click-Solutions/refs/heads/main/fixgensyn.sh | bash
 ```
