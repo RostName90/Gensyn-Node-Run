@@ -47,5 +47,10 @@ screen -ls
 ```bash
 screen -r
 ```
+To kill a screen session in Linux, you can use the following command:
+
+```bash
+screen -X -S <session_name> quit
+```
 
 > ⚠️ USE DIFFERENT AI MODEL TO CHECK THE AUTHENTICITY OF THE FILES.
