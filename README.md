@@ -53,9 +53,9 @@ To kill a screen session in Linux, you can use the following command:
 screen -X -S <session_name> quit
 ```
 
-> ⚠️ USE DIFFERENT AI MODEL TO CHECK THE AUTHENTICITY OF THE FILES.
 >
 > New Update -----------------------------------
+>
 > To restart the node run
 >
 > ```bash
@@ -69,4 +69,8 @@ screen -X -S <session_name> quit
 >
 > ```bash
 > ./run_rl_swarm.sh
+> ```
+>
+> ```bash
+> cloudflared tunnel --url http://localhost:3000
 > ```
