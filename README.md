@@ -54,3 +54,19 @@ screen -X -S <session_name> quit
 ```
 
 > ⚠️ USE DIFFERENT AI MODEL TO CHECK THE AUTHENTICITY OF THE FILES.
+>
+> New Update -----------------------------------
+> To restart the node run
+>
+> ```bash
+> cd rl-swarm
+> ```
+>
+> ```bash
+> python3 -m venv .venv
+> source .venv/bin/activate
+> ```
+>
+> ```bash
+> ./run_rl_swarm.sh
+> ```
